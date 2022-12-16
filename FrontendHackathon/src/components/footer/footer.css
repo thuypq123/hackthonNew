@@ -1,0 +1,54 @@
+.footer {
+    width: 100%;
+    font-size: 20px;
+    background-color: #F4F4F4;
+  }
+  .footerContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+  }
+  .fLists {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    background-color: #F4F4F4;
+
+  }
+  
+  .fList {
+    list-style: none;
+    padding-top: 20px;
+    width: 20%;
+  }
+  .fList > li {
+    text-align: center;
+    font-size: 15px;
+  }
+  .fListItem {
+    margin-bottom: 10px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .fImg {
+    width: 200px;
+    padding-bottom: 20px;
+  }
+  .iconLink {
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .fText {
+    font-size: 12px;
+    padding-bottom: 13px;
+    text-align: center;
+  }
+  

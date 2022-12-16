@@ -1,0 +1,74 @@
+.transferForm{
+    margin-bottom: 20px;
+}
+
+.btnTransfer{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.btnTransfer:hover{
+    color: tomato;
+}
+
+.transferHisPage{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+   
+}
+
+.transferHisContainer{
+    width: 100%;
+    height: calc(100vh - 80px);
+    max-width: 1330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.transferHisWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    background-color: aliceblue;
+    height: 40vh;
+    width: 450px;
+    border-right: 1px solid red;
+}
+
+.headerTransferWrapperResult{
+    text-align: center;
+}
+
+.transferWrapperResult{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    background-color: aliceblue;
+    width: 450px;
+    height: 40vh;
+}
+
+.transFerResult{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    overflow: scroll;
+
+}
+.transFerResultCard{
+    display: flex;
+}
+.transFerResultItem{
+    display: flex;
+    flex-direction: column;
+}
+.resultImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-right: 20px;
+}

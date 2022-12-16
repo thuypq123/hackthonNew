@@ -1,0 +1,85 @@
+.navbar {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1300px;
+    color: #148bed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logoNavbar {
+    width: 115px;
+    
+}
+.btnDN{
+    background-color: #ECECEE;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.btnDN:hover{
+    color: tomato;
+}
+.btnDK{
+    color: black;
+    background: linear-gradient(to right,#F9B500, #FDCE00);;
+    font-size: large;
+    font-weight: bold;
+}
+.btnDK:hover{
+    background: #FDCE00;
+}
+.navBarInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBarInfo>span{
+    font-size: 20px;
+}
+.navBarImgUser {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbarUser{
+    position: relative;
+    z-index: 10000;
+}
+.userChoses{
+    position: absolute;
+    width: 200px;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+}
+.userChosesStyle>li{
+    padding-bottom: 10px;
+
+}
+
+.hover:hover{
+    color: tomato;
+}
+
+.navBarOptionUl{
+    display: flex;
+}
+.navBarOptionUl>li{
+    padding: 20px;
+}

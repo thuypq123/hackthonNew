@@ -1,0 +1,80 @@
+.loginPage{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.loginContainer{
+    width: 100%;
+    height: calc(100vh - 80px);
+    max-width: 1440px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+.loginPanner{
+    margin: 0 auto;
+}
+
+.loginWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 245, 245);
+    margin-top: -200px;
+    border-radius: 20px;
+    z-index: 100;
+}
+
+.loginStyleInput{
+    width: 350px;
+    height: 45px;
+    display: flex;
+    background-color: #F0F0F0;
+    margin-top: 20px;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgb(127, 125, 125);
+}
+
+.loginTextInput{
+    border: none;
+    outline: none;
+    width: 270px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #F0F0F0;
+}
+
+.loginIcon{
+    color: rgb(134, 139, 143);
+    font-size: 20px;
+    margin: 10px;
+}
+
+.btnLgDN{
+    margin-top: 20px;
+    width: 350px;
+    color: black;
+    background: linear-gradient(to right,#F9B500, #FDCE00);
+    font-size: large;
+    font-weight: bold;
+}
+.btnLgTTk{
+    margin-top: 20px;
+    width: 350px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid rgb(127, 125, 125);
+}
+
+.btnKhongDN{
+    cursor: pointer;
+    padding: 20px;
+}

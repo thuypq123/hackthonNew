@@ -1,0 +1,77 @@
+.checkTransferPage{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.checkTransferContainer{
+    width: 100%;
+    height: calc(100vh - 80px);
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkTransferWraper{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 245, 245);
+    margin-top: 10px;
+    border-radius: 20px;
+    z-index: 100;
+}
+
+.checkTransferAddNew{
+    display: flex;
+    justify-content: start;
+    width: 60%;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+}
+.link>span{
+    padding-left: 10px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(233, 224, 224);
+}
+.textErrorMsg{
+    color: tomato;
+}
+
+.checkTransferSearch{
+    display: flex;
+    width: 60%;
+    border-radius: 20px;
+    background-color: white;
+    height: 40px;
+    overflow: hidden;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.checkTransferSearch>button{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 3px;
+}
+.checkTransferSearch>input{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 80%;
+}
+
+.checkTransferResult{
+    display: flex;
+}

@@ -1,0 +1,59 @@
+.transferPage{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.transferContainer{
+    width: 100%;
+    height: calc(100vh - 80px);
+    max-width: 1440px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+.transferWraper{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 245, 245);
+    margin-top: 10px;
+    border-radius: 20px;
+    z-index: 100;
+}
+
+.transferStyleInput{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: start;
+   
+}
+.transferStyleInput>input{
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+textarea{
+    border-radius: 20px;
+}
+.transferSubmit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnTransfer{
+    background: linear-gradient(to right,#F9B500, #FDCE00);
+}
+.textErrorMsg{
+    color: tomato;
+}
